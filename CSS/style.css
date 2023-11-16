@@ -1,0 +1,15 @@
+body{
+    background-color: lightblue;
+}
+p{
+    column-count: 4;
+    column-rule:2px solid red;
+    column-gap:20px;
+    column-rule-style: dotted;
+    border-style:double;
+
+}
+::selection{
+    background-color: yellow;
+    color:brown;
+}
